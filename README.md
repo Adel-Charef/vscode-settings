@@ -7,60 +7,87 @@ All of the themes / plugins / extensions / settings I use for VSCode.
 
 * Current theme:
   * [Just Black](https://marketplace.visualstudio.com/items?itemName=nur.just-black)
-* This is cool theme also
+* This is cool theme also:
   * [Seti-Monokai](https://marketplace.visualstudio.com/items?itemName=SmukkeKim.theme-setimonokai)
 
 
 ## Icons
+
 * Current Icons:
   * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
+
 ## Extensions
 
-  * Adds the ability to create files anywhere in your workspace.
 * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-  * Automatically add HTML/XML close tag
+  * Automatically add HTML/XML close tag.
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-  * Automatically rename paired HTML/XML tag
+  * Automatically rename paired HTML/XML tag.
 * [FontSize ShortCuts](https://marketplace.visualstudio.com/items?itemName=fosshaas.fontsize-shortcuts)
   * Change the font size with keyboard shortcuts.
-* [Toggle Quotes](https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes)
-  * cmd ' (ctrl ' on win/linux) will cycle the first quote pair found (from the start/end of the section) between ', ", `
+
 
 ## IntelliSense/AutoComplete
 
 * [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
-  * Provides CSS class name completion for the HTML class attribute based on the definitions found in your workspace or external files referenced through the link element
+  * Provides CSS class name completion for the HTML class attribute based on the definitions found in your workspace or external files referenced through the link element.
 * [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
-  * Autocompletes npm modules in import/require statements
+  * Autocompletes npm modules in import/require statements.
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-  * Autocompletes filenames
-* [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
-  * Vue tooling
+  * Autocompletes filenames.
 
-## Style/Formatting
+
+## Style/Formatting/Linting
 
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-  * Integrates ESLint JS
+  * Integrates ESLint JS.
 * [Beautify](https://marketplace.visualstudio.com/items?itemName=hookyqr.beautify)
   * Automatically format javascript, JSON, CSS, Sass, and HTML files.
+
+    ### For Python:
+      * [black](https://github.com/psf/black)
+
+      * [Pylint](https://pylint.org/) 
+
+
+## Extensions for Frontend
+
+* [JavaScript Code Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+  * Code snippets for JavaScript in ES6 syntax.
+* [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
+  * Allow peeking to css ID and class strings as definitions from html files to respective CSS. Allows peek and goto definition.
+* [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+  * Vue tooling.
+* [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+  * Compile Sass or Scss to CSS at realtime with live browser reload.
+* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+  * Compile Sass or Scss to CSS at realtime with live browser reload.
+* [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+  * Simple extensions for React, Redux and Graphql in JS/TS with ES7 syntax.
+* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  * Code formatter using prettier.
+
 
 ## Useful/Extra
 
 * [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
-  * Display inline the size of the required/imported package
+  * Display inline the size of the required/imported package.
+* [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
+  * Automatically finds, parses and provides code actions and code completion for all available imports. Works with Typescript and TSX.
 * [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
-  * Evaluate code/logs inline and show results in the editor
+  * Evaluate code/logs inline and show results in the editor.
 * [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-  * Collaborative editing, debugging, and more inside VS Code
+  * Collaborative editing, debugging, and more inside VS Code.
 * [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
   * Makes it easy to create, manage, and debug containerized applications.
 * [Dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
-  * Support for dotenv file syntax
+  * Support for dotenv file syntax.
 * [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
   * Language support for .gitignore files. Lets you pull .gitignore files from the https://github.com/github/gitignore repository.
 * [TabNine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
   * All-language autocompleter — TabNine uses machine learning to help you write code faster.
+* [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+  * Show TODO, FIXME, etc. comment tags in a tree view
 
 
 ## Python
@@ -74,13 +101,7 @@ All of the themes / plugins / extensions / settings I use for VSCode.
 * [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
   * Automatically generates detailed docstrings for python functions.
 * [Django](https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django)
-  * Beautiful syntax and scoped snippets for perfectionists with deadlines
-
-## Code Formating Python
-  * [black](https://github.com/psf/black)
-
-## Code Linting
-  * [Pylint](https://pylint.org/) 
+  * Beautiful syntax and scoped snippets for perfectionists with deadlines.
 
 
 # Settings
@@ -93,36 +114,56 @@ All of the themes / plugins / extensions / settings I use for VSCode.
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": false,
   "workbench.colorTheme": "Just Black",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "workbench.iconTheme": "vscode-icons",
   "editor.fontLigatures": true,
-  "terminal.integrated.fontSize": 24,
-  "files.autoSave": "off",
-  "editor.fontFamily": "Anonymous Pro",
+  "terminal.integrated.fontSize": 20,
+  "files.autoSave": "afterDelay",
   "markdown.preview.fontSize": 36,
   "editor.tabSize": 2,
   "editor.detectIndentation": true,
   "editor.minimap.enabled": false,
+  "liveshare.featureSet": "insiders",
+  "liveshare.anonymousGuestApproval": "accept",
+  "editor.lineHeight": 0,
+  "editor.fontSize": 22,
+  "python.formatting.provider": "black",
+  "python.linting.mypyEnabled": true,
+  "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
+  "python.analysis.logLevel": "Trace",
+  "python.showStartPage": false,
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.inheritEnv": false,
+  "vsicons.dontShowNewVersionMessage": true,
   "eslint.enable": true,
-  // "files.exclude": { "**/.*": true },
-  "eslint.validate": [
-    {
-      "language": "vue",
-      "autoFix": true
+  "beautify.config": {
+    "css": {
+      "indent_size": 2
     },
-    {
-        "language": "typescript",
-        "autoFix": true
-      },
-    {
-      "language": "html",
-      "autoFix": true
-    },
-    {
-      "language": "javascript",
-      "autoFix": true
+    "indent_char": " ",
+    "indent_size": 4,
+    "js": {
+      "indent_size": 2,
+      "space_after_anon_function": true,
+      "space_after_named_function": true,
+      "space_before_conditional": true,
+      "space_in_paren": false
     }
+  },
+  "beautify.language": {
+    "css": ["sass", "scss"],
+    "html": ["htm", "html", "django-html"]
+  },
+  "bracketPairColorizer.activeScopeCSS": [
+    "backgroundColor : {color}",
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}; opacity: 0.5"
   ],
+  "bracketPairColorizer.forceIterationColorCycle": true,
+  "bracketPairColorizer.forceUniqueOpeningColor": true,
+  "bracketPairColorizer.highlightActiveScope": true,
   "workbench.startupEditor": "newUntitledFile",
   "editor.suggestSelection": "first",
   "[javascript]": {
@@ -137,7 +178,6 @@ All of the themes / plugins / extensions / settings I use for VSCode.
   "[css]": {
     "editor.defaultFormatter": "HookyQR.beautify"
   },
-  "liveshare.featureSet": "insiders",
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
   },
@@ -145,7 +185,6 @@ All of the themes / plugins / extensions / settings I use for VSCode.
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "liveshare.anonymousGuestApproval": "accept",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -162,10 +201,7 @@ All of the themes / plugins / extensions / settings I use for VSCode.
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": [
-          "comment",
-          "comment.block"
-        ],
+        "scope": ["comment", "comment.block"],
         "settings": {
           "fontStyle": "italic",
           "foreground": "#ff1493"
@@ -185,16 +221,108 @@ All of the themes / plugins / extensions / settings I use for VSCode.
     ]
   },
   "todo-tree.tree.showScanModeButton": false,
+  "cSpell.enableFiletypes": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "git-commit",
+    "go",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pug",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml"
+  ],
   "cSpell.userWords": [
     "deno",
     "feathersjs",
     "middlewares",
     "socketio",
     "upsert",
-    "upvote"
+    "upvote",
+    "Beeblebrox",
+    "CloudFormation",
+    "Dalek",
+    "FIPS",
+    "Makefiles",
+    "NIST",
+    "Neopets",
+    "OWASP",
+    "POSIX",
+    "Pipfile",
+    "YAGNI",
+    "anonymize",
+    "anonymized",
+    "asynchronicity",
+    "autoremove",
+    "boto",
+    "botocore",
+    "caffeination",
+    "canonicalization",
+    "changelogs",
+    "commoditized",
+    "cybersecurity",
+    "distro",
+    "dotfiles",
+    "executables",
+    "fooey",
+    "gofakeit",
+    "isort",
+    "markdownlint",
+    "multifactor",
+    "pentesting",
+    "performant",
+    "pipenv",
+    "postgres",
+    "powerline",
+    "prepend",
+    "printf",
+    "pylint",
+    "pytest",
+    "pytz",
+    "readfile",
+    "reassociated",
+    "rebased",
+    "repos",
+    "shortcode",
+    "shortcodes",
+    "soteria",
+    "stateful",
+    "strcat",
+    "strcpy",
+    "struct",
+    "stubber",
+    "subproblems",
+    "templating",
+    "tinymce",
+    "treehouse",
+    "underuse",
+    "unencrypted",
+    "unintuitive",
+    "vaporwave",
+    "wirelessly"
   ],
-  "editor.lineHeight": 0,
-  "editor.fontSize": 27
 }
 ```
-
