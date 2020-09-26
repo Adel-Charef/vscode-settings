@@ -7,7 +7,7 @@ All of the themes / plugins / extensions / settings I use for VSCode.
 
 * Current theme:
   * [Just Black](https://marketplace.visualstudio.com/items?itemName=nur.just-black)
-* This is cool theme also:
+* This is a cool theme also:
   * [Seti-Monokai](https://marketplace.visualstudio.com/items?itemName=SmukkeKim.theme-setimonokai)
 
 
