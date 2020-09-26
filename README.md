@@ -77,9 +77,10 @@ All of the themes / plugins / extensions / settings I use for VSCode.
   * Beautiful syntax and scoped snippets for perfectionists with deadlines
 
 ## Code Formating Python
-  * black
+  * [black](https://github.com/psf/black)
+
 ## Code Linting
-  * Pylint 
+  * [Pylint](https://pylint.org/) 
 
 
 # Settings
