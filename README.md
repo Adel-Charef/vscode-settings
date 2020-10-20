@@ -17,16 +17,6 @@ All of the themes / plugins / extensions / settings I use for VSCode.
   * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
 
-## Extensions
-
-* [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-  * Automatically add HTML/XML close tag.
-* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-  * Automatically rename paired HTML/XML tag.
-* [FontSize ShortCuts](https://marketplace.visualstudio.com/items?itemName=fosshaas.fontsize-shortcuts)
-  * Change the font size with keyboard shortcuts.
-
-
 ## IntelliSense/AutoComplete
 
 * [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
@@ -72,8 +62,6 @@ All of the themes / plugins / extensions / settings I use for VSCode.
 
 * [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
   * Display inline the size of the required/imported package.
-* [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
-  * Automatically finds, parses and provides code actions and code completion for all available imports. Works with Typescript and TSX.
 * [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
   * Evaluate code/logs inline and show results in the editor.
 * [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
@@ -112,47 +100,102 @@ All of the themes / plugins / extensions / settings I use for VSCode.
   "editor.snippetSuggestions": "top",
   "emmet.showAbbreviationSuggestions": false,
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.formatOnPaste": false,
+  "editor.renameOnType": true,
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "Just Black",
+  "workbench.preferredDarkColorTheme": "Just Black",
   "window.zoomLevel": 0,
   "workbench.iconTheme": "vscode-icons",
   "editor.fontLigatures": true,
   "terminal.integrated.fontSize": 20,
+  "outline.problems.colors": true,
   "files.autoSave": "afterDelay",
   "markdown.preview.fontSize": 36,
   "editor.tabSize": 2,
   "editor.detectIndentation": true,
   "editor.minimap.enabled": false,
-  "liveshare.featureSet": "insiders",
-  "liveshare.anonymousGuestApproval": "accept",
   "editor.lineHeight": 0,
-  "editor.fontSize": 22,
-  "python.formatting.provider": "black",
-  "python.linting.mypyEnabled": true,
-  "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
+  "editor.fontSize": 23,
+  "python.formatting.provider": "autopep8",
   "python.analysis.logLevel": "Trace",
   "python.showStartPage": false,
   "editor.formatOnSave": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "terminal.integrated.inheritEnv": false,
   "vsicons.dontShowNewVersionMessage": true,
-  "eslint.enable": true,
-  "beautify.config": {
-    "css": {
-      "indent_size": 2
-    },
-    "indent_char": " ",
-    "indent_size": 4,
-    "js": {
-      "indent_size": 2,
-      "space_after_anon_function": true,
-      "space_after_named_function": true,
-      "space_before_conditional": true,
-      "space_in_paren": false
-    }
+  "files.trimTrailingWhitespace": true,
+  "files.restoreUndoStack": false,
+  "workbench.editor.restoreViewState": false,
+  "editor.wordWrap": "off",
+  "editor.codeLens": false,
+  "markdown.extension.toc.omittedFromToc": {
+    // Use a path relative to your workspace.
+    "README.md": ["# Introduction", "## Also omitted"],
+    // Or an absolute path for standalone files.
+    "/home/foo/Documents/todo-list.md": ["## Shame list (I'll never do these)"]
   },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
   "beautify.language": {
-    "css": ["sass", "scss"],
+    "css": ["sass", "scss", "css"],
     "html": ["htm", "html", "django-html"]
   },
   "bracketPairColorizer.activeScopeCSS": [
@@ -323,6 +366,9 @@ All of the themes / plugins / extensions / settings I use for VSCode.
     "unintuitive",
     "vaporwave",
     "wirelessly"
-  ],
+  ]
 }
+
+
+
 ```
