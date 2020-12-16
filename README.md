@@ -94,7 +94,7 @@ All of the themes / plugins / extensions / settings I use for VSCode.
 
 # Settings
 
-```json
+```
 {
   "explorer.openEditors.visible": 0,
   "editor.snippetSuggestions": "top",
@@ -225,17 +225,11 @@ All of the themes / plugins / extensions / settings I use for VSCode.
     "editor.defaultFormatter": "octref.vetur"
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.colorCustomizations": {},
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
@@ -299,42 +293,72 @@ All of the themes / plugins / extensions / settings I use for VSCode.
     "yml"
   ],
   "cSpell.userWords": [
-    "deno",
-    "feathersjs",
-    "middlewares",
-    "socketio",
-    "upsert",
-    "upvote",
+    "Adel",
     "Beeblebrox",
+    "Bezos",
+    "Broklyn",
     "CloudFormation",
     "Dalek",
     "FIPS",
+    "Lightbox",
     "Makefiles",
     "NIST",
     "Neopets",
     "OWASP",
     "POSIX",
     "Pipfile",
+    "Popen",
+    "Scrapy",
+    "Signup",
+    "Travello",
     "YAGNI",
+    "Youtube",
+    "aiohttp",
     "anonymize",
     "anonymized",
+    "asgi",
     "asynchronicity",
+    "asyncio",
     "autoremove",
     "boto",
     "botocore",
+    "btns",
     "caffeination",
     "canonicalization",
     "changelogs",
+    "chdir",
     "commoditized",
+    "covid",
+    "csrftoken",
     "cybersecurity",
+    "deno",
     "distro",
+    "dotenv",
     "dotfiles",
     "executables",
+    "fbchat",
+    "feathersjs",
+    "ffmpeg",
     "fooey",
+    "gethostbyname",
     "gofakeit",
+    "hexlify",
+    "hmac",
+    "ipaddress",
+    "isalnum",
+    "isalpha",
+    "isnumeric",
     "isort",
+    "itag",
+    "itertools",
+    "klemboard",
+    "klembord",
     "markdownlint",
+    "middlewares",
+    "moviepy",
     "multifactor",
+    "outf",
+    "pbkdf",
     "pentesting",
     "performant",
     "pipenv",
@@ -343,15 +367,23 @@ All of the themes / plugins / extensions / settings I use for VSCode.
     "prepend",
     "printf",
     "pylint",
+    "pynput",
+    "pyperclip",
+    "pyshorteners",
     "pytest",
+    "pyttsx",
+    "pytube",
     "pytz",
+    "qrcode",
     "readfile",
     "reassociated",
     "rebased",
     "repos",
     "shortcode",
     "shortcodes",
+    "socketio",
     "soteria",
+    "sqlite",
     "stateful",
     "strcat",
     "strcpy",
@@ -361,14 +393,25 @@ All of the themes / plugins / extensions / settings I use for VSCode.
     "templating",
     "tinymce",
     "treehouse",
+    "tweetme",
+    "uidb",
     "underuse",
     "unencrypted",
     "unintuitive",
+    "upsert",
+    "upvote",
+    "urandom",
     "vaporwave",
+    "virtualenv",
     "wirelessly"
+  ],
+  "python.languageServer": "Microsoft",
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
   ]
 }
-
-
-
 ```
